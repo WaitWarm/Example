@@ -53,6 +53,8 @@ def plotBestFit(weights):
     plt.ylabel('X2')
     plt.show()
 
+
+
 def stocGradAscent0(dataMatrix,classLabels):
     m,n=shape(dataMatrix)
     alpha=0.01
